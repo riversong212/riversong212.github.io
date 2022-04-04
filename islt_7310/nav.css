@@ -23,5 +23,32 @@ body {
 }
 
 .nav > li > a:hover {
-    color: #5f595f
+    color: #ffa8ff
 }
+nav {
+    display: block;
+    position: absolute;
+    top: 0;
+    width: 100%;
+    background-color:#82088d;
+    }
+    li{
+    list-style-type: none;
+    display: inline;
+    margin-right: 20px;
+    font-size:35px
+    }
+    a:link {
+    color: #fff;
+    text-decoration: none;
+    }
+    a:hover {
+    color: #c625a0;
+    text-decoration: none;
+    }
+    li > ul {
+    display: none
+    }
+    li:hover ul {display: block; position: absolute; right:420px;background-color:purple;margin:40;}
+    li:hover ul li a:link{display: block;margin-left:-20px;margin-right:20px}
+
