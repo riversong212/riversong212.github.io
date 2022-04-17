@@ -1,2 +1,5 @@
 #paragraph {font-style: italic;}
-.heading1 {color: blueviolet;}
+.heading1 {color: #8a2be2;}
+.firstparagraph::first-letter {
+  background-color: rgb(234, 255, 3);
+}
