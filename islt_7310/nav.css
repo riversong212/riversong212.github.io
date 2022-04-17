@@ -1,54 +1,53 @@
-body {
-    margin: 0;
-    padding: 0;
-    font-family: 'Arial', serif;
-}
 
-.nav {
-    background-color: #82088d
-    color #ffffff;
-    list-style: none;
-    text-align: center;
-    padding: 20px 0 20px 0;
-}
-
-.nav > li {
-    display: inline-block;
-    padding: 0 25px 0 25px;
-}
-
-.nav > li > a {
-    text-decoration: none;
-    color: #ffffff;
-}
-
-.nav > li > a:hover {
-    color: #ffa8ff
-}
 nav {
-    display: block;
-    position: absolute;
-    top: 0;
     width: 100%;
-    background-color:#82088d;
+    height: 70px;
+    background-color: #82088d;
+   }
+nav ul  {
+    float: right;
     }
-    li{
-    list-style-type: none;
-    display: inline;
-    margin-right: 20px;
-    font-size:35px
+nav ul li {
+        float: right;
+        list-style:none;
+        position: relative;
     }
-    a:link {
-    color: #fff;
-    text-decoration: none;
+    /* Changes color when hovering*/
+    nav a:hover {
+        background-color:#e7acfd;
     }
-    a:hover {
-    color: #c625a0;
-    text-decoration: none;
+    nav ul li a{
+        display: block;
+        font-family: arial; 
+        font-weight: bold;
+        color: #FCFCFC;
+        font-size: 20px;
+        padding: 0px 10px 10px 15px;
+        text-decoration: none;
     }
-    li > ul {
-    display: none
+    /* dropdown styling*/
+    nav ul li ul{
+        display: none;
+        position: absolute;
+        background-color: #aa48be;
+        padding: 10px; 
+        border-radius: 0px 0px 4px 4px;
     }
-    li:hover ul {display: block; position: absolute; right:420px;background-color:purple;margin:40;}
-    li:hover ul li a:link{display: block;margin-left:-20px;margin-right:20px}
+    /* to show dropsdown when hovering*/
+    nav ul li:hover ul{
+        display: block;  
+    }
+    
+    nav ul li ul li {
+        width: 100px;
+        text-align: center;
+        border-radius: 4px;      
+    }
+    nav ul li ul li a {
+        padding: 0px 12px;
+    }
+    
+nav ul li ul li a:hover {
+    background-color:#e7acfd;
+}
 
