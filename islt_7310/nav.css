@@ -6,6 +6,7 @@ nav {
    }
 nav ul  {
     float: right;
+    display: flex;
     }
 nav ul li {
         float: right;
