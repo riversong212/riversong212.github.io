@@ -1,0 +1,37 @@
+
+#paragraph {font-style: italic;}
+.heading1 {color: #8a2be2;}
+.firstparagraph::first-letter {
+  background-color: #eeff00;
+}
+nav ul { display: flex;
+  justify-content: flex-end;}
+
+  div{width: 1000px; margin-left: 10px;}
+  .container {
+    display: grid;
+    grid-template-columns: auto;
+    gap: 10px;
+    grid-auto-flow: row;
+    grid-template-areas:
+    "Header"
+    "Navigation"
+     "Footer";
+  }
+  /* header styling*/
+  .Header { grid-area: Header; 
+    text-size-adjust: 70%;
+  }
+
+  .Navigation { grid-area: Navigation;}
+
+  .Content { grid-area: Content; 
+    font-size: 18px;}
+
+.Footer { grid-area: Footer;
+  background-color: lightgrey;
+ text-align: center;
+  border: 5px solid #000000;
+  padding: 1%;
+  margin: auto;
+}
