@@ -57,6 +57,11 @@ nav ul li ul li a:hover {
     align-items: center;
 }
 
+.menu{
+    display: flex;
+    flex-direction: row;
+}
+
 .menu li{
     list-style-type: none;
 }
