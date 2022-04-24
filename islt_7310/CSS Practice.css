@@ -48,6 +48,49 @@ nav ul { display: flex;
   margin: auto;
   width: 100%;
 }
+/* Media Queries for responsive design */
+@media only screen and (max-width: 1250px) {
+  tr {
+      font-size: 16px;
+  }
+
+  table#degreetable {
+      width: 50%;
+      margin-left: 25%;
+      margin-right: 25%;
+  }
+}
+
+@media only screen and (max-width: 800px) {
+  tr {
+      font-size: 12px;
+  }
+  table#degreetable {
+      width: 90%;
+      margin-left: 5%;
+      margin-right: 5%;
+  }
+}
+
+@media  screen and (max-width: 600px) {
+  p, h1, h2 {
+      font-size: 1.15rem;
+  }
+}
+
+@media screen and (max-width: 800px) {
+  p {
+      font-size: 1.25rem;
+      line-height: 1.25;
+  }
+}
+
+@media (max-width: 600px) {
+  aside, article {
+      width: 100%;
+      height: auto;
+  }
+}
 @media screen and (min-width: 1020px) {
   body {
     background: #ffa8ff;
