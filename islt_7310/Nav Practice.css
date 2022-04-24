@@ -50,4 +50,58 @@ nav ul li {
 nav ul li ul li a:hover {
     background-color:#e7acfd;
 }
+.hamburger{
+    width: 2em;
+    height: 0.25em;
+    display: block;
+    background: #FFFFCC;
+    position: relative;
+    cursor: pointer;
+}
+
+.hamburger::after, .hamburger::before{
+    content: "";
+    position: absolute;
+    left: 0;
+    background: inherit;
+    width: inherit;
+    height: inherit;
+
+    transition: 0.2s transform ease-in-out;
+}
+
+.hamburger::after{
+    top: 0.65em;
+}
+
+.hamburger::before{
+    bottom: 0.65em;
+}
+
+.close::after, .close::before{
+    top: 0;
+    transition: 0.2s transform ease-in-out;
+}
+
+/*
+.close::before{
+    display: none;
+}
+
+.close{
+    transform: rotate(45deg);
+    transition: 0.2s transform ease-in-out;
+}
+
+.close::after{
+    transform: rotate(-90deg);
+}
+*/
+
+/* reveal menu */
+input[type="checkbox"]:checked + .menu {
+position: absolute;
+opacity: 1;
+transform: scaleY(1);
+}
 
