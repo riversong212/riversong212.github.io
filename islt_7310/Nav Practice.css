@@ -51,6 +51,12 @@ nav ul li ul li a:hover {
     background-color:#e7acfd;
 }
 
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
 .menu li{
     list-style-type: none;
 }
