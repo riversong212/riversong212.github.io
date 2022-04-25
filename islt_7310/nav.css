@@ -14,7 +14,7 @@ nav ul li {
     }
     /* Changes color when hovering*/
     nav a:hover {
-        background-color:#e7acfd;
+        background-color:#9c5cfc;
     }
     nav ul li a{
         display: block;
@@ -48,7 +48,7 @@ nav ul li {
     }
     
 nav ul li ul li a:hover {
-    background-color:#e7acfd;
+    background-color:#ef85ff;
 }
 .navbar{
     display: flex;
@@ -80,7 +80,7 @@ nav ul li ul li a:hover {
 
 .menu > li:hover > a, .submenu > li:hover > a{
     background-color:#aa48be;
-    color: #e7acfd
+    color: #ffffff;
 }
 
 /* style submenu */
