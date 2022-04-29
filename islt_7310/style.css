@@ -16,22 +16,38 @@ nav ul { display: flex;
     color:#82088d;
     background-color: #ffa8ff;
   }
+  .quote { color:#82088d;}
 
 .body {color:#82088d;
-       height: 500px;}
+       height: 600px;}
 
-   .Footer {
-    display: grid;
-    grid-template-columns: auto;
-    grid-auto-flow: row;
-    grid-template-areas:
-     "Footer";
-    background-color: #ffffff;
-   text-align: center;
-    border: 5px solid #000000;
-    margin: auto;
-    width: 100%;
+       .Footer {
+        display: grid;
+        grid-template-columns: auto;
+        
+        grid-template-areas:
+         "Footer";
+        background-color: #ffffff;
+       text-align: center;
+        border: 5px solid #000000;
+        margin: auto;
+        width: 100%;
+      }
+/*Home Page style*/
+.indexfooter {
+  height: 100px;
+  background-image: url(footerimage.jpg);
+}
+.footerimg {
+  width: 20px;
+  height: 20px;
+  transition: width 0.3s linear 0s;
+  } 
+  .footerimg:hover {
+      width: 30px;
+      height:30px;
   }
+
   aside {
     display:inline;
     float: left;
