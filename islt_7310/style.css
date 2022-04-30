@@ -5,7 +5,6 @@ nav ul { display: flex;
   justify-content: space-evenly;}
   div{margin-left: 10px;}
  
-
   .h1{ font-size: 18px;
   }
   .title{color:#82088d;
@@ -21,27 +20,21 @@ nav ul { display: flex;
 .body {color:#82088d;
        text-indent: 50px;}
 
-       .Footer {
-        display: grid;
-        grid-template-columns: auto;
-        
-        grid-template-areas:
-         "Footer";
+        .Footer { display: grid;
+          grid-area:  footer;
         background-color: #ffffff;
-       text-align: center;
+        text-align: center;
         border: 5px solid #000000;
         margin: auto;
         width: 100%;
       }
 /*Home Page style*/
 .indexfooter {
-  height: 100px;
   background-image: url(footerimage.jpg);
 }
 .footerimg {
   width: 20px;
   height: 20px;
-  transition: width 0.3s linear 0s;
   } 
   .footerimg:hover {
       width: 30px;
