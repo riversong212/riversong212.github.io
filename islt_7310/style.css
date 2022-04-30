@@ -19,7 +19,7 @@ nav ul { display: flex;
   .quote { color:#82088d;}
 
 .body {color:#82088d;
-       height: 600px;}
+       text-indent: 50px;}
 
        .Footer {
         display: grid;
