@@ -86,3 +86,11 @@ nav ul { display: flex;
   body {
     background: #ffa8ff; 
   }}
+
+  /*print style*/
+@media print {
+  *{ background: transparent !important;
+    color: #000 !important;
+    box-shadow: none !important;
+    text-shadow: none !important;}
+      }
