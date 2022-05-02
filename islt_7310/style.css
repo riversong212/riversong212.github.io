@@ -5,23 +5,16 @@ nav ul { display: flex;
   justify-content: space-evenly;}
   div{margin-left: 10px;}
  
-  .h1{ font-size: 18px;
-  }
   .title{color:#82088d;
-    background-color: #ffa8ff;
-    
-  }
-  .h2{ font-size: 18px;
-    color:#82088d;
-    background-color: #ffa8ff;
-  }
-  .quote { color:#82088d;}
+         background-color: #ffa8ff;}
+  .quote {color:#82088d;}
 
-.body {color:#82088d;
-       text-indent: 50px;}
+.body {color:#ffffff;
+       background-color:#82088d;
+       justify-content: center;}
 
         .Footer { display: grid;
-          grid-area:  footer;
+        grid-area:  footer;
         background-color: #ffffff;
         text-align: center;
         border: 5px solid #000000;
@@ -47,8 +40,8 @@ nav ul { display: flex;
     justify-content: center;
     width: 30%;
     height: auto;
-    padding: 20px;
-    margin: 40px;
+    
+    margin: 20px;
 }
   article {
     float: right;
