@@ -9,8 +9,12 @@ nav ul { display: flex;
          background-color: #ffa8ff;}
   .quote {color:#82088d;}
 
-.body {color:#ffffff;
-       background-color:#82088d;
+.intro {color:#ffffff;
+  background-color:#82088d;
+  justify-content: center;
+}
+  .body {color:#82088d;
+       background-color:#ffa8ff;
        justify-content: center;}
 
         .Footer { display: grid;
