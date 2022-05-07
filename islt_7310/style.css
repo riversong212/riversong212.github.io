@@ -50,13 +50,15 @@ nav ul { display: flex;
     
     margin: 20px;
 }
-  article {
-    float: right;
-    position: relative;
-    padding: 20px;
-    width: 50%;
-    height: 100%;
+
+/*About page style */
+article {
+  float: right;
+  padding: 20px;
+  width: 50%;
+  height: 100%;
 }
+
 /*Contact page style */
 
 form {
