@@ -83,15 +83,34 @@ input, textarea {
   width: 50%;
   margin-left: 1em!important;
 }
-
 .submit {
   margin-left: 7em;
   width: 100px;
   text-align: center;
 }
+ /*table style*/
 
+ table {
+  border-collapse: collapse;
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  table-layout: fixed;
+  margin: 64px auto 128px;
+  max-width: 760px;
+  background-color: #ffffff
+}
 
-
+table thead {
+  text-align: center;
+  background-color: #8a2be2;
+  color: #ffffff;
+  padding: 4px 30px 4px 8px;
+}
+table td {
+  border: 1px solid #82088d;
+  padding: 4px 8px;
+}
 
 
 /* Media Queries for responsive design */
@@ -106,6 +125,7 @@ input, textarea {
       margin-right: 25%;
   }
 }
+
 
 @media  screen and (max-width: 600px) {
   p, h1, h2 {
