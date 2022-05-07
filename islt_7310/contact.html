@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<!--
+    Title: Contact
+    Use: to allow users to contact me
+    Author: Leslie Kim
+    School/ Term: University of Missouri, Spring 2022
+    Developed: May 6, 2022
+    Tested: May 6, 2022
+-->
+<head>
+               <meta charset="utf-8">
+               <title>Contact Page</title>
+               <meta name="viewport" content="width=device-width, initial-scale=1.0">
+               <link rel="stylesheet" type="text/css" href="nav.css">
+               <link rel="stylesheet" href="style.css">
+               <style>
+                div{ width: 1000px; margin-top: 0; margin-left: 10px;}
+                </style>
+                   <style>
+                        LI { 
+                            margin: 5px 5px 5px 5px;
+                            padding: 5px 5px 5px 5px; /* Note 0px padding right */
+                            list-style: none             /* no glyphs before a list item */
+                                                         /* No borders set */
+                          }
+                        </style>
+</head>
+<body>
+    <header>
+        <h1 class="heading1">Leslie Kim's Portfolio</h1></header>
+        <nav class="navbar">
+            <label for="input-hamburger" class="hamburger"></label>
+            <input type="checkbox" id="input-hamburger" hidden>
+            <ul class="menu">
+                <li><a href="/islt_7310/index.html">Home</a></li>
+                <li><a href="/islt_7310/about.html">About</a></li>
+                <li><a href="/islt_7310/Project.html">Projects</a>
+                    <ul>
+                        <li><a href="/islt_7310/Project1.html" >Goal 1</a></li>
+                        <li><a href="/islt_7310/Project2.html" >Goal 2</a></li>
+                        <li><a href="/islt_7310/Project3.html" >Goal 3</a></li>
+                    </ul>
+                        <li><a href="/islt_7310/reflection.html">Reflection</a></li>
+                        <li><a href="#">#Contact</a></li>
+                    </ul>
+                    </nav>
+                    <h2 class="title">Contact Me</h2>
+                    <form action="mailto:lkim@mail.missouri.edu?Subject=Portfolio/Professional%20Website%20Contact" method="post">
+                        <fieldset>
+                        <div>
+                            <label for="firstname">First Name</label>
+                            <input type="text" id="firstname">
+                        </div>
+                
+                        <div>
+                            <label for="lastname">Last Name</label>
+                            <input type="text" id="lastname">
+                        </div>
+                
+                        <div>
+                            <label for="email">Email</label>
+                            <input type="text" id="Email">
+                        </div>
+                
+                        <div>
+                            <label for="message">Message</label>
+                            <textarea></textarea>
+                        </div>
+                    </fieldset>
+                        <input type="submit" class="submit">
+                    </form>
+        <div class="Footer">
+            <footer class="indexfooter">
+                    <img class="footerimg" src="Mail2.png" alt="mail icon">
+                    <a href="mailto:lkim@mail.missouri.edu">lkim@mail.missouri.edu</a>
+                    &copy; Copyright 2022 Leslie Kim
+                    <img class="footerimg" src="Phone2.png" alt="phone icon">
+                    1+888-888-8888  
+            </footer>
+            </div>
+
+</body>
+</html>
