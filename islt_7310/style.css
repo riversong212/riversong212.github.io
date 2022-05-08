@@ -7,6 +7,7 @@ nav ul { display: flex;
  
   .title{color:#82088d;
          background-color: #ffa8ff;}
+  
   .quote {color:#82088d;}
 
   .body {color:#82088d;
@@ -16,7 +17,14 @@ nav ul { display: flex;
        padding: 20px;
        width: 50%;
        height: 100%;}
-
+  .body2 {color:#82088d;
+        background-color:#ffa8ff;
+        text-align: left;
+        line-height: 1.5;
+        margin: auto;
+        width: 70%;
+        
+        padding-left: 80px;}
     .Footer { display: grid;
             grid-area:  footer;
             background-color: #ffffff;
@@ -30,10 +38,7 @@ nav ul { display: flex;
                 font-family: Arial, Helvetica, sans-serif;}yj
      
 /*Home Page style*/
-.intro {color:#ffffff;
-  background-color:#82088d;
-  justify-content: center;
-}
+
 .indexfooter {
   background-image: url(footerimage.jpg);
 }
