@@ -68,10 +68,7 @@
 
 
   @media only screen and (min-width: 501px) {
-    h1 {
-      font-size: 15pt;
-      line-height: .1px;
-  }
+    
 
   .heading1 {
       display: flex;
@@ -130,6 +127,9 @@
     background-position: center;
     background-repeat: no-repeat;
     position: relative;
+    padding: 20px;
+    width: 50%;
+    height: 100%;
 }
 
 .intro {
