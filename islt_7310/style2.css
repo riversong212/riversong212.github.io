@@ -9,7 +9,7 @@
   .title{color:#000000;
          background-color: #ffa8ff;}
   
-  .body {color:#82088d;
+  .body {color:#000000;
        background-color:#ffa8ff;
        justify-content: center;
        float: right;
@@ -110,6 +110,7 @@
 }
 @media only screen and (min-width: 700px) {
   .intro {
+    color:#000000;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
